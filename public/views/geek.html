@@ -1,0 +1,46 @@
+<div class="jumbotron text-center">
+
+
+
+
+	<div class="container">
+		<div class="container__item">
+			<form class="form">
+				<input class="form__field" ng-model="to_search">
+				<button  class="btn btn--primary btn--inside uppercase" ng-click="search()" >Send</button>
+			</form>
+		</div>
+
+
+
+
+	</div>
+
+	<div id="container">
+
+		<p align=""><a href="https://en.wikipedia.org/wiki/Red">
+			{{name}}
+		</a></p>
+
+
+		<p align="center"><a href="https://en.wikipedia.org/wiki/Blue">
+			{{prediction}}
+		</a></p>
+	</div>
+
+	<div align="center"> <iframe width="900" height="315" ng-src="{{url}}" target="_blank"></iframe></div>
+
+
+</div>
+
+
+
+
+
+
+<div id="svgContainer"></div><!--
+--><div id="svgContainer2"></div><!--
+--><div id="svgContainer3"></div>
+<script src='https://labs.nearpod.com/bodymovin/demo/markus/walk/lottie.min.js'></script>
+
+<script  src="js/index.js"></script>

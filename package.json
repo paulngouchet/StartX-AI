@@ -1,0 +1,15 @@
+{
+  "name": "starter-node-angular",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.4.2",
+    "csv-array": "0.0.22",
+    "express": "~4.5.1",
+    "fs": "0.0.1-security",
+    "json2csv": "^4.3.2",
+    "jsonexport": "^2.4.1",
+    "method-override": "~2.0.2",
+    "mongoose": "^4.4.20",
+    "node-svm": "^2.1.9"
+  }
+}
