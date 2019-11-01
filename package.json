@@ -9,7 +9,7 @@
     "json2csv": "^4.3.2",
     "jsonexport": "^2.4.1",
     "method-override": "~2.0.2",
-    "mongoose": "^4.4.20",
+    "mongoose": "^5.7.5",
     "node-svm": "^2.1.9"
   }
 }
